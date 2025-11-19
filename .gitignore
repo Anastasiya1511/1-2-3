@@ -1,5 +1,8 @@
-index.html_old
-NeuroStartUp.png_backup
-Thumbs.db
-.DS_Store
+#будет игнорироваться каталог tmp
 tmp/
+#будут игнорироваться файлы, заканчивающиеся суффиксами _old, _backup
+*.*_old
+*.*_backup
+# будут игнорироваться файлы Thumbs.db и .DS_Store
+Thumbs.db
+*.DS_Store
